@@ -1,0 +1,9 @@
+{
+  "structure": {
+    "readme": "Intro.md"
+  },
+  "variables": {
+    "myTest": "Hello World"
+  },
+  "gitbook": ">=2.0.0"
+}
