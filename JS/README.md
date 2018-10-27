@@ -2,3 +2,4 @@
 
 * [JS](README.md)
   * [函数防抖](deounce.md)
+  * [safari与Date](safari与Date.md)

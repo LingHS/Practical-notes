@@ -10,4 +10,4 @@
   * [fixed与overflow-srcolling](CSS/fixed与overflow-srcolling.md)
 * [JS](JS/README.md)
   * [函数防抖](JS/deounce.md)
-
+  * [safari与Date](JS/safari与Date.md)

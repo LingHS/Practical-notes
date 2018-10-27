@@ -25,15 +25,15 @@ export function debounce(fn, delay = 200) {
     // 再过 delay 毫秒就执行 fn
     return new Promise(resolve => {
       timer = setTimeout(() => {
-        resolve(fn.apply(args));
+        resolve(fn.apply(this,args));
       }, delay);
     });
   }
   return debounced;
 }
 //调用方法
-debounce(fn)([x, y, z])
-  .then(res => {
+let newFn = debounce(fn);
+  newFn([x, y, z]).then(res => {
     //res为返回值
     //do something
   })
