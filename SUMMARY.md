@@ -1,7 +1,8 @@
 # Summary
 
-* [HTML](HTML/README.md)
+* [HTML&Window](HTML/README.md)
   * [window的刷新](HTML/window的刷新.md)
+  * [ios不支持history.go方法](HTML/ios与history.go.md)
 * [CSS](CSS/README.md)
   * [移动端0.5px](CSS/移动端点5px.md)
   * [background-color的覆盖范围](CSS/backgroud-color.md)
